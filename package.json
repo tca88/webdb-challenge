@@ -1,0 +1,21 @@
+{
+  "name": "webdb-challenge",
+  "version": "1.0.0",
+  "description": "Sprint Challenge for WebDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "i": "^0.3.6",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.19.0"
+  }
+}
